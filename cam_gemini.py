@@ -14,7 +14,7 @@ import time
 import pygame
 
 
-GOOGLE_API_KEY="AIzaSyDNjK0fTCbPBCB6HmEmwR0cSXFti2uRmlM" ## https://aistudio.google.com/app/apikey
+GOOGLE_API_KEY="..." ## https://aistudio.google.com/app/apikey
 genai.configure(api_key=GOOGLE_API_KEY)
         
 cap = cv2.VideoCapture(0) #第一個鏡頭為(0)
